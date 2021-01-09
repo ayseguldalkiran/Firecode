@@ -3,7 +3,9 @@ public class isPowerOfTwo {
         System.out.println(isPowOfTwo(64));
     }
     public static boolean isPowOfTwo(int num) {
-
+        if(num==1){
+            return true;
+        }
         int s=2;
             for(int i=1; i<num; i++){
                 if(num==s){
