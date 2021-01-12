@@ -12,7 +12,6 @@ public class isPowerOfTwo {
                     return true;
                 }
                 s=2*s;
-
             }
 
 return false;
